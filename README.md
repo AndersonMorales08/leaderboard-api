@@ -5,6 +5,8 @@ Es uno de los repos del taller "Software factories with Claude Code".
 
 ## Preparar (antes del taller)
 
+Necesitas Python 3.10 o más nuevo (`python3 --version`). En Ubuntu o WSL, además: `sudo apt install python3-venv`.
+
 ```zsh
 gh repo fork sgomezahumada/leaderboard-api --clone && cd leaderboard-api
 python3 -m venv venv && venv/bin/pip install -q -r requirements.txt
@@ -22,3 +24,7 @@ y abre http://127.0.0.1:8001.
 
 Lo que tú cambias: `AGENTS.md` (el contexto), `gates/` (tus revisiones), `prompts/` (las fases).
 Haz commit en `main` antes de cada corrida. Nada se mergea: los PRs son para comparar.
+
+## Tus gates
+
+Lee [`gates/README.md`](gates/README.md): las reglas y cuatro ejemplos para copiar y adaptar.
