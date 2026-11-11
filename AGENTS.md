@@ -14,5 +14,5 @@ Small FastAPI app: a community-event leaderboard. In-memory store, no database.
 
 ## Factory rules
 - Phase state lives in `.factory/` as markdown files. Never put plan or review text in code comments.
-- Only the paths in SCOPE (factory.conf) may change. Do not touch factory.sh, lib/, gates/, prompts/ or this file.
+- Only the paths in SCOPE (factory.conf) may change. Do not touch factory.sh, lib/, gates/, .claude/ or this file.
 - Security: no eval/exec, no shell calls from endpoints, validate all inputs with pydantic.
